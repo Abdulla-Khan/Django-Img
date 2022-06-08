@@ -1,6 +1,4 @@
 from django.http import JsonResponse
-from django.shortcuts import render
-from requests import Response
 from rest_framework.generics import ListAPIView
 from rest_framework.generics import CreateAPIView
 from rest_framework.generics import DestroyAPIView
