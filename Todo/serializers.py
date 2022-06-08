@@ -1,5 +1,6 @@
+
 from rest_framework import serializers
-from Todo.models import Todo
+from Todo.models import PostFeed, Todo
 
 
 class TodoSerializer(serializers.ModelSerializer):
